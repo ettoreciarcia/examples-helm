@@ -1,0 +1,8 @@
+targetCustomizations:
+- name: dev
+  helm:
+    values:
+      replicaCount: 10
+  clusterSelector:
+    matchLabels:
+      env: dev
