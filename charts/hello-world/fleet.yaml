@@ -1,0 +1,6 @@
+targetCustomizations:
+- name: all
+  helm:
+    values:
+      replicaCount: 10
+  clusterSelector: {}
